@@ -1,118 +1,108 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>hosi1001_page</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background-color: #121212;
-            color: #f5f5f5;
-        }
-        header {
-            background-color: #1f1f1f;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        nav a {
-            color: #f5f5f5;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
-        }
-        a {
-            color: #f5f5f5;
-            font-family: 'Arial', sans-serif;
-            font-size: 1.5em;
-            margin-bottom: 500px;
-        }
-        nav a:hover {
-            color: #00bcd4;
-        }
-        section {
-            padding: 50px;
-            text-align: center;
-        }
-        section h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        /* section category {
-            font-size: 3.0em;
-            margin-bottom: 10px;
-        } */
-        .project {
-            background-color: #2e2e2e;
-            margin: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: left;
-        }
-        .project h3 {
-            margin-top: 0;
-        }
-        footer {
-            background-color: #1f1f1f;
-            padding: 20px;
-            text-align: center;
-        }
-        footer p {
-            margin: 0;
-        }
-    </style>
+
 </head>
+
 <body>
     <header>
-        <h1>hosi</h1>
+        <div class="header-content">
+            <div class="name">
+                <h1>hosi</h1>
+            </div>
+            <img src="./img/top.png" alt="Profile Image" class="profile-img">
+        </div>
         <nav>
-            <a href="#about">About</a>
+            <a href="#about">
+                <h2>About
+            </a>
+            <a href="#interest">Interest</a>
             <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contact</h2></a>
         </nav>
     </header>
     <section id="about">
-        <h2>$ About Me</h2>
-        <h1>Japanese Graduate Student</h1>
-        <h1>Major: Computer Security</h1>
-        <!-- <h1>Blender</h1> -->
+        <span class="category">$ About Me</span>
+        <div class="profile">
+
+            <h1>Name: hosi</h1>
+            <h1>Status: Graduate Student</h1>
+            <h1>Major: Computer Science , Security</h1>
+        </div>
     </section>
-    <section id="contact">
-        <h2>$ Interest</h2>
-        <h1>Security</h1>
-        <h1>Embdded Device</h1>
-        <h1>Electronics</h1>
-        <h1>Computer Graphics</h1>
+    <section id="interest">
+        <span class="category">$ Interest</span>
+        <div class="interest">
+            <h1>・Security</h1>
+            <h1>・Embdded Device</h1>
+            <h1>・Middleware</h1>
+            <h1>・Computer Graphics</h1>
+        </div>
+
     </section>
+
     <section id="projects">
-        <h2>$ Joined Projects</h2>
-  
+        <span class="category">$ Joined Projects</span>
+
 
 
         <div class="project">
-            <a href="https://mikuec.com/"><h3>MIKUEC </h3> </a>
-            <p>2022,2023,2024にCGグラフィックス担当として参加 <br>ボーカロイドを主役としたバーチャルライブをサークルで開催した。
+            <a href="https://mikuec.com/">
+                <h1>MIKUEC </h1>
+            </a>
+            <p>2022, 2023, 2024年度にCGグラフィックス担当として参加 <br>ボーカロイドを主役とした3DCGバーチャルライブを開催
             </p>
         </div>
         <div class="project">
-            <a href="https://mikuec.com/virtual2"><h3>MIKUEC V2</h3> </a>
-            <p>2024年度にCGグラフィックス、Unityエンジニアとして参加<br> </p>
+            <a href="https://mikuec.com/virtual2">
+                <h1>MIKUEC V2</h1>
+            </a>
+            <p>2024年度にCGグラフィックス、Unityエンジニアとして参加<br>リアルタイムライブコンテンツゲームを有志と作成 </p>
         </div>
     </section>
+    <section id="events">
+        <span class="category">$ Events</span>
+        <div class="event">
+            <a href="https://toyotatimes.jp/spotlights/1061.html">
+                <h1>Toyota Hack Festa</h1>
+            </a>
+            <h3>2024年度に国内予選に参加<br>
+
+            </h3>
+        </div>
+        <div class="event">
+            <a href="https://www.uec.ac.jp/news/announcement/2025/20250407_6895.html">
+                <h1>UEC BUG BOUNTY</h2>
+            </a>
+            <h3>2022, 2023, 2024年度に参加<br> 2024年度：優秀賞、特別賞<br> 2025年度：優秀賞</h3>
+        </div>
+    </section>
+    <section id="qualifications">
+        <span class="category">$ Qualifications</span>
+        <div class="qualifications">
+            <h3>・実用英語検定二級 (2018)</h3>
+            <h3>・基本情報技術者試験(2022)</h3>
+            <h3>・普通自動車第一種運転免許（2023）</h3>
+            <h3>・TOEIC 775点 (2024/9)</h3>
+        </div>
+
+    </section>
     <section id="contact">
-        <h2>$ Contact</h2>
+        <span class="category">$ Contact</span>
+        <div class="contact">
+
+            <h3><a href="https://x.com/hosi_univ">X : hosi</a></h3>
+            <h3> <a href="https://github.com/hosi1001">GitHub : hosi1001</a></h3>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2024 hosi. All Rights Reserved.</p>
+        <p>&copy; 2025 hosi. All Rights Reserved.</p>
     </footer>
 </body>
+
 </html>
