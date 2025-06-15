@@ -58,6 +58,7 @@ header h1 {
 
 nav {
     margin-top: 15px;
+    
 }
 
 nav a {
@@ -72,6 +73,51 @@ nav a {
 
 nav a:hover {
     color: #00bcd4;
+}
+
+.nav-row {
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.nav-row a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin: 32px;
+    font-size: 1.7em;
+    transition: color 0.3s ease;
+}
+
+.nav-row a:hover {
+    color: #00bcd4;
+}
+
+.wip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 0.9em;
+}
+
+.wip a{
+    color: rgba(245, 243, 243, 0.486); 
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.wip a:hover {
+    color: #00bcd4;
+}
+
+.wip-label {
+    color: #df9931;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #1f1f1f;
+    border: 2px solid #a77429;
 }
 
 section {
@@ -89,6 +135,7 @@ section {
     color: #bb6310;
     /* text-shadow: 5px 5px #000; */
 }
+
 
 h1,
 h2,
