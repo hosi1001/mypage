@@ -1,3 +1,3 @@
 ## mypages
 ### URL 
-https://hosi1001.github.io/mypage/
+https://hosi1001.github.io/
